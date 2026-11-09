@@ -163,8 +163,8 @@ export default function App() {
             <div className="cal-col cal-day-name">SÁBADO</div>
             <div className="cal-divider-vertical"></div>
             <div className="cal-col-center">
-              <span className="silver-text-metal cal-big-day">17</span>
-              <span className="cal-month-year">OUTUBRO • 2026</span>
+              <span className="silver-text-metal cal-big-day">13</span>
+              <span className="cal-month-year">MARÇO • 2027</span>
             </div>
             <div className="cal-divider-vertical"></div>
             <div className="cal-col cal-time">ÀS 21:00H</div>
