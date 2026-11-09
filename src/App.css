@@ -50,11 +50,23 @@ body, html {
 /* =========================================
    1. Camada 1: Capa Inicial (capa.png)
    ========================================= */
+.hidden-layer {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.visible-video {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 5 !important;
+}
+
 #cover-layer {
   position: absolute;
   inset: 0;
   z-index: 5;
-  background: url('assets/capa.png') center center / cover no-repeat;
+  background: url('/assets/capa.png') center center / cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,7 +74,10 @@ body, html {
   padding: 44px 20px 48px;
 }
 
-/* Instrução Minimalista e Elegante no Topo */
+#final-backdrop {
+  z-index: 1;
+  background: url('/assets/fundo.png') center center / cover no-repeat;
+}
 .cover-top-instruction {
   display: flex;
   align-items: center;

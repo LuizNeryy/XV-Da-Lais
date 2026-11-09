@@ -1,4 +1,5 @@
-# Ignorar arquivos temporários e de testes
+node_modules/
+dist/
 scratch/
 exemplos/
 *.tmp
