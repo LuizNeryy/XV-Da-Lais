@@ -19,7 +19,7 @@
   --dark-night: #030712;
 }
 
-body, html {
+body, html, #root {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -285,7 +285,7 @@ body, html {
    ========================================= */
 #final-backdrop {
   z-index: 1;
-  background: url('assets/fundo.png') center center / cover no-repeat;
+  background: url('/assets/fundo.png') center center / cover no-repeat;
 }
 
 /* =========================================
