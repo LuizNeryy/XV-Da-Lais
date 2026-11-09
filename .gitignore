@@ -1,0 +1,6 @@
+# Ignorar arquivos temporários e de testes
+scratch/
+exemplos/
+*.tmp
+.DS_Store
+Thumbs.db
